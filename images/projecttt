@@ -1,0 +1,64 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+#banner{
+    background:linear-gradient(rgba(0,0,0,0),#ffe1e1,white),url(images/bg.jpeg);
+    background-size:auto;
+    background-position: center;
+    height: 100vh;
+        }
+.logo{
+    width:100px;
+    position:absolute;
+    top:2%;
+    left:10%;
+}
+.bannertext{
+    text-align:center;
+    vertical-align:text-bottom;
+    color:firebrick;
+    padding-top:250px;
+    
+}
+
+.bannertext h1{
+    font-size: 130px;
+    font-family: 'Lobster', cursive;
+    color:black;
+}
+
+.bannertext p{
+    font-family: 'Vina Sans', cursive;
+    color:palevioletred;
+    font-size:40px;
+}
+.buttton{
+    margin:70px;
+    
+}
+.buttton a{
+    width:150px;
+    text-decoration: none;display: inline-block;
+    margin: 0 10px;
+    padding:12px 0;
+    color:black;
+    border:.5px solid darkred;   
+    position: relative;
+    z-index: 1;
+  
+}
+.buttton a span{
+    width: 0;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left:0;
+    background:hotpink;
+    z-index:-1;
+    transition:0.5s;
+}
+.buttton a:hover span{
+    width: 100%;
+}
+
